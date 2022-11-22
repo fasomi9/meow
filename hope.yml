@@ -1,4 +1,4 @@
-from .. import loader, utils
+From .. import loader, utils
 import asyncio
 from telethon.tl.types import Message
 
