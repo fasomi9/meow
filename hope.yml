@@ -1,6 +1,4 @@
-From import loader, utils
-
-from telethon.tl.types import Message
+from .. import loader, utils
 
 @loader.tds
 class ComplementsMod(loader.Module):
