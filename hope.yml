@@ -1,6 +1,6 @@
-из .. импортировать загрузчик, утилиты
-импортировать асинхронный
-из telethon.tl.types импортировать сообщение
+from .. import loader, utils
+import asyncio
+from telethon.tl.types import Message
 
 @loader.tds
 класс ComplementsMod(loader.Module):
