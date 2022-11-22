@@ -1,6 +1,33 @@
-from .. import loader, utils
+# ---------------------------------------------------------------------------------
+#  ,_     _          
+#  |\_,-~/          
+#  / _  _ |    ,--.  🌐 This module was loaded through https://t.me/hikkamods_bot
+# (  @  @ )   / ,-'  🔐 Licensed under the GNU AGPLv3.
+#  \  _T_/-._( (     
+#  /         `. \    ⚠️ Owner of this bot doesn't take responsibility for any
+# |         _  \ |   errors caused by this module or this module being non-working
+#  \ \ ,  /      |   and doesn't take ownership of any copyrighted material.
+#   || |-_\__   /    
+#  ((_/`(____,-'     
+# ---------------------------------------------------------------------------------
+# Name: hoppe
+# Description: Модуль который дарит комплементы девушке/парню
+# Author: Bloodymen
+# Commands:
+# .hd | .hb
+# ---------------------------------------------------------------------------------
+#
+# 🔒 Licensed under the GNU AGPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
 
+# meta developer: @shyatzd
+# meta banner: https://i.imgur.com/kDshq0N.jpeg
+# meta pic: https://i.imgur.com/xC4oVi6.jpeg
+
+from .. import loader, utils
+import asyncio
 from telethon.tl.types import Message
+
 
 @loader.tds
 class ComplementsMod(loader.Module):
