@@ -31,7 +31,7 @@ from telethon.tl.types import Message
     async def hbcmd(self, message: Message):
         """Эта команда дарит счастье парню"""
 
-        для меня в [
+        for i in [
            "Пожалуйста прочти до конца",
             "....",
             "ты прекрасна как всегда",
@@ -40,11 +40,10 @@ from telethon.tl.types import Message
             "самый идеальный из идеалов",
             "самый красивый",
             "самый умный",
-            "самый перезаписанный",
+            "самый незабываемый",
             "самый лучший",
             "Маленький принц мой",
-            "часть мое"
-        ]:
-            сообщение = ожидание utils.answer(сообщение, я)
-            ждать asyncio.sleep(1)
-Нижний колонтитул
+            "часть меня"
+                ]:
+            message = await utils.answer(message, i)
+            await asyncio.sleep(1)
