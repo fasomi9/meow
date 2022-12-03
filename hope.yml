@@ -2,7 +2,7 @@
 # ---------------------------------------------------------------------------------
 #  ,_     _          
 #  |\_,-~/          
-#  / _  _ |    ,--.  🌐 This module was loaded through https://t.me/hikarimods
+#  / _  _ |    ,--.  🌐 This module was loaded through https://t.me/hikkamods_bot
 # (  @  @ )   / ,-'  🔐 Licensed under the GNU AGPLv3.
 #  \  _T_/-._( (     
 #  /         `. \    ⚠️ Owner of this bot doesn't take responsibility for any
@@ -15,7 +15,7 @@
 # Description: Модуль который дарит комплементы подруге/другу/девушке/парню
 # Author: Bloodymen
 # Commands:
-# .hd | .fhd | .fhb | .hb
+# .hd |.shd |.shb |.hb
 # ---------------------------------------------------------------------------------
 #
 # 🔒 Licensed under the GNU AGPLv3
@@ -65,8 +65,8 @@ class ComplementsMod(loader.Module):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-async def fhdcmd(self, message: Message):
-        """Эта команда дарит счастье лучшей подруге """
+   async def shdcmd(self, message: Message):
+        """Эта команда дарит счастье лучшей подруге"""
 
         for i in [
             "Пожалуйста прочти до конца",
@@ -94,8 +94,8 @@ async def fhdcmd(self, message: Message):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-async def fhbcmd(self, message: Message):
-        """Эта команда дарит счастье лучшему другу """
+async def shbcmd(self, message: Message):
+        """Эта команда дарит счастье лучшему другу"""
 
         for i in [
             "Пожалуйста прочти до конца",
