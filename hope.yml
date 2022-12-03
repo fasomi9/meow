@@ -94,7 +94,7 @@ class ComplementsMod(loader.Module):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-  async def shbcmd(self, message: Message):
+    async def shbcmd(self, message: Message):
         """Эта команда дарит счастье другу"""
 
         for i in [
@@ -125,7 +125,7 @@ class ComplementsMod(loader.Module):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-  async def hbcmd(self, message: Message):
+    async def hbcmd(self, message: Message):
         """Эта команда дарит счастье парню"""
 
         for i in [
