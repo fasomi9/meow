@@ -94,9 +94,6 @@ async def fhdcmd(self, message: Message):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-
-    
-
 async def fhbcmd(self, message: Message):
         """Эта команда дарит счастье лучшему другу """
 
