@@ -46,11 +46,11 @@ class ComplementsMod(loader.Module):
             "......",
             "ты самая неповторимая",
             "......",
-            "головакружительная",
+            "головокружительная",
             "......",
             "самая идеальная из идеалов",
             "......",
-            "самая красива",
+            "самая красивая",
             "......",
             "самая умная",
             "......",
@@ -65,8 +65,8 @@ class ComplementsMod(loader.Module):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-   async def shdcmd(self, message: Message):
-        """Эта команда дарит счастье лучшей подруге"""
+    async def shdcmd(self, message: Message):
+        """Эта команда дарит счастье подруге"""
 
         for i in [
             "Пожалуйста прочти до конца",
@@ -94,8 +94,8 @@ class ComplementsMod(loader.Module):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-async def shbcmd(self, message: Message):
-        """Эта команда дарит счастье лучшему другу"""
+  async def shbcmd(self, message: Message):
+        """Эта команда дарит счастье другу"""
 
         for i in [
             "Пожалуйста прочти до конца",
@@ -106,7 +106,7 @@ async def shbcmd(self, message: Message):
             "......",
             "Ты самый родной",
             "......",
-            "Ты самый лучший дурак,которого я знаю",
+            "Ты самый лучший дурак которого я знаю",
             "......",
             "Ты самый долбанутый",
             "......",
@@ -116,7 +116,7 @@ async def shbcmd(self, message: Message):
             "......",
             "ты впечатал свое имя в мою душу",
             "......",
-            "я искал серебро, но нашел золото",
+            "я искал серебро но нашел золото",
             "......",
             "ты мне как брат",
             "......",
@@ -125,7 +125,7 @@ async def shbcmd(self, message: Message):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-async def hbcmd(self, message: Message):
+  async def hbcmd(self, message: Message):
         """Эта команда дарит счастье парню"""
 
         for i in [
@@ -149,7 +149,7 @@ async def hbcmd(self, message: Message):
             "......",
             "Маленький принц мой",
             "......",
-            "часть меня"
+            "часть меня",
         ]:
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
